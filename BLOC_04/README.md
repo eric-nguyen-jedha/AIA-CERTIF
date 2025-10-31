@@ -296,9 +296,10 @@ filterwarnings =
 - version de Jenkins : 2.516.3-1
 - Blue Ocean : 1.27.23
 ## ▶️ Lancement de Jenkins
-- docker stop jenkins-blueocean
-- docker rm jenkins-blueocean
-
+```
+docker stop jenkins-blueocean
+docker rm jenkins-blueocean
+```
 > Relancer le container (mapper sur le port 9090 pour éviter les conflits avec airflow 8080 / Mlflow 8081)
 
 ```
