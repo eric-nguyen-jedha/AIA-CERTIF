@@ -320,7 +320,17 @@ with smtplib.SMTP(smtp_host, smtp_port) as server:
                 server.starttls()
             server.login(conn.login, conn.password)
             server.send_message(msg)
-```            
+```
+## Variable #Airflow
+
+Variable,Description
+```
+- AWS_ACCESS_KEY_ID,Clé AWS pour accéder à S3.
+- AWS_SECRET_ACCESS_KEY,Secret AWS.
+- BUCKET,Nom du bucket S3 pour les rapports.
+- ARTIFACT_STORE_URI,URI du stockage MLflow.
+- BACKEND_STORE_URI, du backend MLflow.            
+```
 
 ## 📩 SMPT de Jenkins est configuré avec GMAIL
 - dans l'admin de Jenkins : configurer le SMTP ainsi que l'Extended Email
