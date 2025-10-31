@@ -20,7 +20,7 @@ Ce projet implémente un pipeline complet de machine learning pour prédire les 
 
 ## 📁 Structure du projet
 
-```
+```mermaid
 
 └── AIRFLOW/
 ├── config/
