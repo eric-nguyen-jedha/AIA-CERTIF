@@ -48,7 +48,6 @@ Ce projet implémente un pipeline complet de machine learning pour prédire les 
 ├── STREAMLIT/             # Application web Streamlit
 ├── MLFLOW/                # Configuration MLflow
 ├── data/                  # Données météo
-├── dags/ # DAGs Airflow pour le pipeline de données
 ├── dags_ml/ # DAGs Airflow spécifiques au pipeline ML
 │ ├── realtime_prediction_forecast.py    # Tests unitaires du pipeline de données
 │ └── paris_meteo_ml_pipeline.py        # Tests unitaires du pipeline de données
@@ -208,11 +207,26 @@ Accédez à `http://localhost:8080` pour gérer les DAGs :
 ### 5. Tests Jenkins
 
 ```
-├── dags/
-│ ├── meteo_paris.py # 1. Collecte des données météo pour former le DATASET, collecte que pour la ville de Paris
-│ ├── evidently_datacheck.py # 2. DAG de validation des données avec Evidently
-│ ├── paris_meteo_ml_pipeline.py # 3. DAG pour le pipeline ML (entraînement, etc.)
-│ └── realtime_prediction_forecast.py # 4. DAG pour les prédictions en temps réel
+├── dags_ml/ # DAGs Airflow spécifiques au pipeline ML
+│ ├── realtime_prediction_forecast.py    # Tests unitaires du pipeline de données
+│ └── paris_meteo_ml_pipeline.py        # Tests unitaires du pipeline de données
+├── tests/
+│ ├── dags/
+│ │ ├── full_paris_meteo_ml_forcast_dag.py # Fichier de test pour la structure complète du DAG ML
+│ │ ├── meteo_paris.py # Test ou utilitaire lié au DAG météo
+│ │ └── weather_utils.py # Fonctions utilitaires partagées pour les DAGs météo
+│ ├── integration/
+│ │ └── test_dag_structure.py # Test d’intégration (exécuté avec le marqueur "integration")
+│ ├── ml/
+│ │ ├── test_training_pipeline.py # Tests unitaires du pipeline ML
+│ │ ├── test_weather_dags.py # Tests unitaires des DAGs météo
+│ │ └── validate_dags.py # Script de validation syntaxique des DAGs (appelé dans "Validate DAGs")
+│ └── unit/
+│ ├── test_csv_to_s3_upload.py # Test unitaire : upload CSV vers S3
+│ ├── test_fetch_weather_data.py # Test unitaire : récupération des données météo
+│ ├── test_setup_aws_environment.py # Test unitaire : configuration AWS
+│ ├── test_transform_and_append_weather_data.py # Test unitaire : transformation des données
+│ └── conftest.py # Configuration commune pour pytest
 ```
 
 
