@@ -159,9 +159,10 @@ Le projet utilise le fichier `data/weather_paris.csv` contenant :
 ## 🎯 Utilisation
 
 
-### 1. Collecte de données pour former le DataSet d'entraineent, Collecte de données via l'API OPENWEATHER
-
+### 1. Collecte de données pour former le DataSet d'entrainement, via l'API OPENWEATHER
+```
 dags/meteo_paris.py
+```
 
 
 ### 1. Entraînement du modèle
@@ -309,6 +310,17 @@ docker run --name jenkins-blueocean -d \
   myjenkins-blueocean:2.516.3-1
 
 ```
+## 📩 SMPT de Airflow est configuré avec GMAIL
+- dans l'Admin/Connection : configurer le SMTP avec le port : 587
+
+```
+# Utilisation du smtplib.SMTP
+with smtplib.SMTP(smtp_host, smtp_port) as server:
+            if use_tls:
+                server.starttls()
+            server.login(conn.login, conn.password)
+            server.send_message(msg)
+```            
 
 ## 📩 SMPT de Jenkins est configuré avec GMAIL
 - dans l'admin de Jenkins : configurer le SMTP ainsi que l'Extended Email
