@@ -1,4 +1,4 @@
-# AIA - BLOC_04 : Projet Météo 🌦️ - ML Pipeline
+# AIA - BLOC_04 : Projet Météo 🌦️ 
 
 ## Présentation en ligne de l'intégralité du projet
 
