@@ -148,12 +148,13 @@ Le projet utilise le fichier `data/weather_paris.csv` contenant :
 ## 🛠 Technologies utilisées
 
 - **ML** : scikit-learn, XGBoost, pandas, numpy
+- **DataQuality** : Evidently
 - **Interface** : Streamlit, folium (cartes)
 - **Orchestration** : Apache Airflow
 - **MLOps** : MLflow
 - **Cloud** : AWS S3, boto3
 - **Tests** : pytest, great_expectations
-- **DevOps** : Docker, Jenkins
+- **DevOps** : Docker, Jenkins, Hugging Face
 
 
 ## 🎯 Utilisation
