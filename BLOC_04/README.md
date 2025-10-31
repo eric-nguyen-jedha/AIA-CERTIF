@@ -193,7 +193,7 @@ cd airflow
 docker-compose up -d
 ```
 
-Accédez à `http://localhost:8080` pour gérer les DAGs :
+Accédez à `http://localhost:8080` pour se connecter à Airflow 𖣘 :
 
 
 ### 4. Airflow Dags
@@ -208,7 +208,7 @@ Accédez à `http://localhost:8080` pour gérer les DAGs :
 
 ### 5. Tests Jenkins
 
-Accédez à `http://localhost:9090` pour se connecter à Jenkins.
+Accédez à `http://localhost:9090` pour se connecter à Jenkins 🎀.
 
 ```
 ├── dags_ml/ # DAGs Airflow spécifiques au pipeline ML
