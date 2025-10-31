@@ -20,7 +20,7 @@ Ce projet implémente un pipeline complet de machine learning pour prédire les 
 
 ## 📁 Structure du projet
 
-```mermaid
+```
 
 └── AIRFLOW/
 ├── config/
@@ -76,8 +76,9 @@ Ce projet implémente un pipeline complet de machine learning pour prédire les 
 └── Jenkinsfile           # Pipeline CI/CD
 ```
 ## 📁 Schéma Mermaid
-```
+```mermaid
 graph TD
+
     subgraph Jenkins["Jenkins (CI/CD)"]
         direction TB
         J_Tests_Units["Tests Units"] --> J_Tests_Int["Tests Int."]
