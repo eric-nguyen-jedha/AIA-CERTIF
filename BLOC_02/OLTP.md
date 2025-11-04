@@ -41,6 +41,7 @@ Le modèle OLTP conçu pour Stripe répond aux exigences critiques d’une plate
 - Faible latence même sous forte charge (OLTP distribué compatible avec CockroachDB/PostgreSQL)
 
 
+
 ```mermaid
 
 erDiagram
@@ -238,6 +239,7 @@ erDiagram
 
 ![Schéma ERD OLTP STRIPE](ERD-OLTP.png)
 
+## Script SQL de Création OLTP
 
 ```
 -- =====================================================
