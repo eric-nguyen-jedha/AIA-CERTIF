@@ -1,4 +1,9 @@
-# 🏦 Stripe Data Architecture – Bloc 02 : Security & Governance
+# 🏦 AIA - BLOC_02 : Architecture DATA chez STRIPE 🌦️ 
+
+## Présentation en ligne de l'intégralité du projet
+
+🚀 [Bloc_02 | STRIPE | Présentation PPT](https://docs.google.com/presentation/d/1EUjt6ZuZBRxjuxuWD4OKV9wgqbWGHm1zGtCbE3KnmMc/edit?usp=sharing) \
+📁 [Bloc_02 | STRIPE | Backup sur GitHub]()
 
 > **Architecture data moderne, sécurisée et conforme pour une plateforme FinTech mondiale**
 
@@ -12,17 +17,16 @@ Ce dépôt contient l’ensemble des documents techniques et de conformité pour
 
 └── BLOC_02/
     ├── AIA_BLOC_02_STRIPE_SECURITE_GOUVERNANCE.pdf ← Document central de conformité
-    ├── AIA_BLOC_02_STRIPE_ARCHITECTURE_OLTP.pdf ← Modèle transactionnel (PostgreSQL)
-    ├── AIA_BLOC_02_STRIPE_ARCHITECTURE_OLAP.pdf ← Modèle analytique (Snowflake)
-    ├── AIA_BLOC_02_STRIPE_ARCHITECTURE_NoSQL.pdf ← Modèle documentaire (MongoDB)
-    ├── AIA_BLOC_02_STRIPE_ARCHITECTURE_PIPELINES.pdf ← Architecture des pipelines (Kafka, Airflow, Flink)
-    ├── AIA_BLOC_02_STRIPE_ARCHITECTURE_MACHINE_LEARNING.pdf ← Architecture ML (Feast, MLflow, Monitoring)
-    ├── AIA_BLOC_02_STRIPE_DIAGRAMME_ERD_OLTP.pdf ← Schéma ERD OLTP (entités, relations, cardinalités)
-    ├── AIA_BLOC_02_STRIPE_DIAGRAMME_ERD_OLAP.pdf ← Schéma OLAP (star schema, dimensions, faits)
-    ├── AIA_BLOC_02_STRIPE_DIAGRAMME_noSQL_STRIPE.pdf ← Schéma NoSQL (collections, champs, flux)
-    ├── AIA_BLOC_02_STRIPE_DOCUMENTATION_OLA_DIAGRAMME_SQL.pdf ← Requêtes SQL OLAP (revenus, fraude, segmentation)
-    ├── AIA_BLOC_02_STRIPE_DOCUMENTATION_OLTP_DIAGRAMME_SQL.pdf ← Requêtes SQL OLTP (transactions, logs, statistiques)
-    ├── AIA_BLOC_02_STRIPE_SQL_NoSQL_QUERIES.pdf ← Exemples de requêtes NoSQL (MongoDB) et SQL combinées
+    ├── AIA_BLOC_02_STRIPE_ARCHITECTURE_DOCUMENTATION_OLTP.pdf ← Documentation OLTP (PostgreSQL)
+    ├── AIA_BLOC_02_STRIPE_ARCHITECTURE_DOCUMENTATION_OLAP.pdf ← Documentation OLAP (Snowflake)
+    ├── AIA_BLOC_02_STRIPE_ARCHITECTURE_DOCUMENTATION_NoSQL.pdf ← Documentation NoSQL (MongoDB)
+    ├── AIA_BLOC_02_STRIPE_ARCHITECTURE_DOCUMENTATION_MACHINE_LEARNING.pdf ← Documentation ML (Feast, MLflow)
+    ├── AIA_BLOC_02_STRIPE_ARCHITECTURE_DOCUMENTATION_PIPELINES.pdf ← Documentation Pipelines (Kafka, Airflow, Flink)
+    ├── AIA_BLOC_02_STRIPE_SQL_NoSQL_QUERIES.pdf ← Exemples de requêtes SQL + NoSQL
+    ├── AIA_BLOC_02_STRIPE_DIAGRAMME_ERD_OLTP.pdf ← Schéma ERD OLTP (entités, relations)
+    ├── AIA_BLOC_02_STRIPE_DIAGRAMME_ERD_OLAP.pdf ← Schéma ERD OLAP (star schema)
+    ├── AIA_BLOC_02_STRIPE_DIAGRAMME_noSQL_STRIPE.pdf ← Schéma NoSQL (collections, flux)
+    └── README.md ← Ce document
 
 ```
 
@@ -44,18 +48,18 @@ Construire une **architecture data unifiée, évolutive et sécurisée** pour St
 ## 📄 Documents clés
 
 ### 1. **Sécurité & Gouvernance**
-📄 [`AIA_BLOC_02_STRIPE_SECURITE_GOUVERNANCE.pdf`](AIA_BLOC_02_STRIPE_SECURITE_GOUVERNANCE.pdf)  
+📄 [`DOCUMENTATION SECURITE & GOVERNANCE`](AIA_BLOC_02_STRIPE_SECURITE_GOUVERNANCE.pdf)  
 → **Document central** : cadre réglementaire, principes, recommandations par couche.
 
 ### 2. **Architecture Technique**
 
 | Domaine | Document |
 |--------|----------|
-| **OLTP** | [`AIA_BLOC_02_STRIPE_ARCHITECTURE_OLTP.pdf`](AIA_BLOC_02_STRIPE_ARCHITECTURE_OLTP.pdf) |
-| **OLAP** | [`AIA_BLOC_02_STRIPE_ARCHITECTURE_OLAP.pdf`](AIA_BLOC_02_STRIPE_ARCHITECTURE_OLAP.pdf) |
-| **NoSQL** | [`AIA_BLOC_02_STRIPE_ARCHITECTURE_NoSQL.pdf`](AIA_BLOC_02_STRIPE_ARCHITECTURE_NoSQL.pdf) |
-| **Pipelines** | [`AIA_BLOC_02_STRIPE_ARCHITECTURE_PIPELINES.pdf`](AIA_BLOC_02_STRIPE_ARCHITECTURE_PIPELINES.pdf) |
-| **Machine Learning** | [`AIA_BLOC_02_STRIPE_ARCHITECTURE_MACHINE_LEARNING.pdf`](AIA_BLOC_02_STRIPE_ARCHITECTURE_MACHINE_LEARNING.pdf) |
+| **OLTP** | [`DOCUMENTATION ARCHITECTURE OTLP`](AIA_BLOC_02_STRIPE_DOCUMENTATION_OLTP_DIAGRAMME_SQL.pdf) |
+| **OLAP** | [`DOCUMENTATION ARCHITECTURE OLAP`](AIA_BLOC_02_STRIPE_DOCUMENTATION_OLA_DIAGRAMME_SQL.pdf) |
+| **NoSQL** | [`DOCUMENTATION ARCHITECTURE NoSQL`](AIA_BLOC_02_STRIPE_ARCHITECTURE_DOCUMENTATION_NoSQL.pdf) |
+| **Pipelines** | [`DOCUMENTATION ARCHITECTURE PIPELINES`](AIA_BLOC_02_STRIPE_DOCUMENTATION_ARCHITECTURE_PIPELINES.pdf) |
+| **Machine Learning** | [`DOCUMENTATION ARCHITECTURE PIPELINE`](AIA_BLOC_02_STRIPE_ARCHITECTURE_MACHINE_LEARNING.pdf) |
 
 ### 3. **Diagrammes**
 
@@ -69,8 +73,6 @@ Construire une **architecture data unifiée, évolutive et sécurisée** pour St
 
 | Contenu | Document |
 |---------|----------|
-| **Requêtes SQL OLAP** | [`AIA_BLOC_02_STRIPE_DOCUMENTATION_OLA_DIAGRAMME_SQL.pdf`](AIA_BLOC_02_STRIPE_DOCUMENTATION_OLA_DIAGRAMME_SQL.pdf) |
-| **Requêtes SQL OLTP** | [`AIA_BLOC_02_STRIPE_DOCUMENTATION_OLTP_DIAGRAMME_SQL.pdf`](AIA_BLOC_02_STRIPE_DOCUMENTATION_OLTP_DIAGRAMME_SQL.pdf) |
 | **Requêtes NoSQL + SQL** | [`AIA_BLOC_02_STRIPE_SQL_NoSQL_QUERIES.pdf`](AIA_BLOC_02_STRIPE_SQL_NoSQL_QUERIES.pdf) |
 
 ---
