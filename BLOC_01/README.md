@@ -1,4 +1,4 @@
-# 🎵 Spotify Data Governance Transformation
+# 🎵 AIA - BLOC_01 : Spotify Data Governance Transformation
 
 
 ## Présentation en ligne de l'intégralité du projet
@@ -17,6 +17,7 @@ BLOC_01/
 ├── AIA_BLOC_01_SPOTIFY_DOCUMENTATION_EVALUATION_MATURITE_DATA.pdf # [Phase 1] Diagnostic initial
 ├── AIA_BLOC_01_SPOTIFY_ORGANIZATIONAL_CHART_DATA_GOVERNANCE.pdf # [Phase 2] Carte organisationnelle
 ├── AIA_BLOC_01_SPOTIFY_PLAN_IMPLEMENTATION_DATA_GOVERNANCE.pdf # [Phase 3] Roadmap exécution
+├── AIA_BLOC_01_SPOTIFY_PLAN_BUDGET_DATA_GOVERNANCE.pdf # [Phase 3] Budget Prévisionnel
 ├── AIA_BLOC_01_SPOTIFY_TABLEAU_EVALUATION_MATURITE_DATA.pdf # [Phase 1] Dashboard de scoring
 ├── AIAI_BLOC_01_SPOTIFY_COMPARAISON_COMPLIANCE.pdf # [Phase 2] Analyse réglementaire
 └── AIAI_BLOC_01_SPOTIFY_TABLEAU_CHECKLIST_COMPLIANCE.pdf # [Phase 2] Checklist opérationnelle
@@ -28,7 +29,7 @@ BLOC_01/
 ## 📊 Vue d'ensemble
 
 - **Durée** : 36 mois (2025–2027)  
-- **Budget total** : **17,7–25,7M€**  
+- **Budget total** : **17–27M€**  
 - **ROI estimé** : **54–127€ / 1€ investi**  
 - **Équipe** : **22–27 FTE**
 
@@ -62,8 +63,10 @@ BLOC_01/
   → Checklist opérationnelle 150+ contrôles de conformité
 
 ### 🚀 Phase 3 : Implémentation & Roadmap
-- `AIA_BLOC_01_SPOTIFY_PLAN_IMPLEMENTATION_DATA_GOVERNANCE.pdf`  
+- `AIA_BLOC_01_SPOTIFY_PLAN_IMPLEMENTATION_DATA_GOVERNANCE.pdf`
   → Roadmap 36 mois, Budget détaillé, Plan de staffing & formation
+- `AIA_BLOC_01_SPOTIFY_PLAN_BUDGET_DATA_GOVERNANCE.pdf`  
+  → Budget Prévisionnel et ROI
 
 ---
 
@@ -75,7 +78,7 @@ BLOC_01/
 | 🛠️ Technique (SaaS + intégrations)     | 5–8M€ (**35 %**)       |
 | 📚 Formation & upskilling              | 550–935k€ (**5 %**)    |
 | ⚠️ Contingence (imprévus)              | 1,6–2,3M€ (**10 %**)   |
-| **TOTAL**                              | **17,7–25,7M€**        |
+| **TOTAL**                              | **17–26M€**        |
 
 ---
 
@@ -106,7 +109,7 @@ BLOC_01/
 - **Churn artistes / users** : 350–900M€  
 - **Dépréciation boursière** : 2–8Md€  
 
-→ **ROI du projet** : investir **~20-27M€** pour éviter **1–4Md€** de risque
+→ **ROI du projet** : investir **~20-26M€** pour éviter **1–4Md€** de risque
 
 ---
 
