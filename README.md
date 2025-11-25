@@ -2,7 +2,7 @@
 
 ## 6️⃣ Blocs de Projets
 
-Ce github comporte 4 blocs et donne des détails sur chacun des 4 projets permettant de passer la certification Arhcitect IA.
+Ce github comporte 4 blocs et donne des détails sur chacun des 4 projets permettant de passer la certification Architect IA.
 
 Pour toute information m'écrire à : en9.eric [arobase] gmail.com
 
