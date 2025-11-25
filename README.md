@@ -18,5 +18,5 @@ Pour toute information m'écrire à : en9.eric [arobase] gmail.com
 
 ## 📣 Note sur les README.md
 
-Tous les projets ont un README.md (leREADME doit être consulté en priorité)\
+Tous les projets ont un README.md (le README.md doit être consulté en priorité)\
 Les projets plus volumineux ont divers README.md à l'intérieur de leur répertoire : ce sont des README dédiés aux applications
