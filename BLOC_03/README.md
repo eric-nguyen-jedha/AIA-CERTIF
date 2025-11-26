@@ -3,7 +3,7 @@
 ## Présentation en ligne de l'intégralité du projet
 
 🚀 [Bloc_03 | FRAUD DETECTION | Présentation PPT](https://docs.google.com/presentation/d/1EUjt6ZuZBRxjuxuWD4OKV9wgqbWGHm1zGtCbE3KnmMc/edit?usp=sharing) \
-📁 [Bloc_03 | FRAUD DETECTION | Backup sur GitHub]()
+📁 [Bloc_03 | FRAUD DETECTION | Backup sur GitHub](https://github.com/eric-nguyen-jedha/AIA-CERTIF/tree/main/BLOC_03)
 
 
 # Pipeline de Détection de Fraude avec Airflow, XGBoost et MLflow
@@ -92,6 +92,19 @@ BLOC_03/
 │ ├── Dockerfile # Image Docker pour le déploiement de l’app Streamlit
 │ ├── README.md # Documentation du module Streamlit
 │ └── requirements.txt # Dépendances spécifiques à l’app Streamlit
+├── FASTAPI/
+├── app.py                # Fichier principal de l'API FastAPI
+├── Dockerfile            # Configuration pour construire l'image Docker
+├── Dockerignore          # Liste des fichiers/dossiers à ignorer lors de la construction de l'image Docker
+├── fraud_api.csv         # Fichier CSV contenant les données des transactions
+├── README.md             # Documentation du projet
+├── run.sh                # Script shell pour exécuter l'API
+│
+├── static/               # Dossier pour les fichiers statiques (CSS, JS, images, etc.)
+│   └── style.css         # Fichier CSS pour le style de l'application
+│
+└── templates/            # Dossier pour les templates HTML
+    └── index.html        # Template HTML pour la page d'accueil
 
 ```
 
