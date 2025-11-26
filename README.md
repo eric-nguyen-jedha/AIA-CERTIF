@@ -1,6 +1,6 @@
 # AIA ERIC NGUYEN - 2025
 
-## 6️⃣ Blocs de Projets
+## 4️⃣ Blocs de Projets
 
 Ce github comporte 4 blocs et donne des détails sur chacun des 4 projets permettant de passer la certification Architecte IA.
 
